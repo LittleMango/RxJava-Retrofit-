@@ -1,0 +1,8 @@
+<resources>
+
+    <!--状态栏半透明-->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    
+</resources>

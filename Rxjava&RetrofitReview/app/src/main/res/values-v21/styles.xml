@@ -1,0 +1,10 @@
+<resources>
+
+    <!--v21的需要设置-->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:navigationBarColor">@color/accent_material_light</item>
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    
+</resources>
