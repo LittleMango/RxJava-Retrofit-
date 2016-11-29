@@ -52,7 +52,8 @@ public class DataPresenterImpl implements DataPresenter {
 
                     @Override
                     public void onError(Throwable e) {
-                        mMainView.showError(e.getMessage());
+                        super.onError(e);
+                        mMainView.showError(error);
                     }
                 });
     }
@@ -81,7 +82,8 @@ public class DataPresenterImpl implements DataPresenter {
 
                     @Override
                     public void onError(Throwable e) {
-                        mMainView.showError(e.getMessage());
+                        super.onError(e);
+                        mMainView.showError(error);
                     }
                 });
     }
@@ -110,7 +112,8 @@ public class DataPresenterImpl implements DataPresenter {
 
                     @Override
                     public void onError(Throwable e) {
-                        mMainView.showError(e.getMessage());
+                        super.onError(e);
+                        mMainView.showError(error);
                     }
                 });
     }
@@ -139,7 +142,8 @@ public class DataPresenterImpl implements DataPresenter {
 
                     @Override
                     public void onError(Throwable e) {
-                        mMainView.showError(e.getMessage());
+                        super.onError(e);
+                        mMainView.showError(error);
                     }
                 });
     }
@@ -168,7 +172,8 @@ public class DataPresenterImpl implements DataPresenter {
 
                     @Override
                     public void onError(Throwable e) {
-                        mMainView.showError(e.getMessage());
+                        super.onError(e);
+                        mMainView.showError(error);
                     }
                 });
     }
@@ -191,7 +196,8 @@ public class DataPresenterImpl implements DataPresenter {
 
                     @Override
                     public void onError(Throwable e) {
-                        mMainView.showError(e.getMessage());
+                        super.onError(e);
+                        mMainView.showError(error);
                     }
                 });
     }
